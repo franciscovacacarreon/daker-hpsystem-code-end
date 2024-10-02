@@ -27,7 +27,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 container-img-experience">
-                        <img class="img-fluid wow zoomIn img-experience" data-wow-delay="0.5s" src="<?= base_url()?>img/customize/experience.jpg">
+                        <img class="img-fluid wow zoomIn img-experience" data-wow-delay="0.5s" src="<?= base_url()?>img/customize/soluciones_ti.avif">
                     </div>
                 </div>
             </div>

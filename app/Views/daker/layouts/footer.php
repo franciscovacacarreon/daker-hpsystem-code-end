@@ -91,6 +91,7 @@
 
     <!-- Template Javascript -->
     <script src="<?= base_url()?>js/main.js"></script>
+    <script src="<?= base_url()?>js/daker/active_header.js"></script>
 </body>
 
 </html>

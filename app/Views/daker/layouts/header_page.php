@@ -45,9 +45,9 @@
         <!-- Navbar & Hero Start -->
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-                <a href="<?= base_url()?>" class="navbar-brand p-0">
-                    <h1 class="m-0"><i class="fas fa-desktop"></i> DAKER<span class="fs-5">SRL</span></h1>
-                    <!-- <img src="<?= base_url()?>img/logo.png" alt="Logo"> -->
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="m-0"><i class="fa fa-search me-2"></i>SEO<span class="fs-5">Master</span></h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -75,20 +75,20 @@
             <div class="container-xxl py-5 bg-primary hero-header mb-5">
                 <div class="container my-5 py-5 px-lg-5">
                     <div class="row g-5 py-5">
-                        <div class="col-lg-6 text-center text-lg-start">
-                            <h1 class="text-white mb-4 animated zoomIn">Soluciones Informáticas Integrales para Potenciar tu Negocio</h1>
-                            <p class="text-white pb-3 animated zoomIn">Ofrecemos servicios especializados en administración de servidores, desarrollo de software, redes, cableado estructurado y soporte TI. Tu infraestructura tecnológica en manos expertas.</p>
-                            <a href="<?= base_url()?>" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Solicita una Cotización</a>
-                            <a href="<?= base_url()?>" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Contáctanos</a>
-                        </div>
-                        <div class="col-lg-4 text-center text-lg-start">
-                            <img class="img-fluid" src="<?= base_url()?>img/customize/servidores_animados.gif" alt="">
-                            <!-- <img class="img-fluid" src="<?= base_url()?>img/hero.png" alt=""> -->
+                        <div class="col-12 text-center">
+                            <h1 class="text-white animated zoomIn">Acerca de nosotros</h1>
+                            <hr class="bg-white mx-auto mt-0" style="width: 90px;">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb justify-content-center">
+                                    <li class="breadcrumb-item"><a class="text-white" href="#">Inicio</a></li>
+                                    <li class="breadcrumb-item"><a class="text-white" href="#">Página</a></li>
+                                    <li class="breadcrumb-item text-white active" aria-current="page">Acerca de nosotros</li>
+                                </ol>
+                            </nav>
                         </div>
                     </div>
                 </div>
             </div>
-            
         </div>
         <!-- Navbar & Hero End -->
 

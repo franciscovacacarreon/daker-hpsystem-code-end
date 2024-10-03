@@ -31,7 +31,7 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-network-wired fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">Redes Especialistas</h5>
+                            <h5 class="mb-3">Soporte en redes</h5>
                             <p>Diseñamos e implementamos redes seguras y eficientes para garantizar la conectividad de tu empresa.</p>
                             <a class="btn px-3 mt-auto mx-auto" href="<?= base_url()?>">Leer Más</a>
                         </div>

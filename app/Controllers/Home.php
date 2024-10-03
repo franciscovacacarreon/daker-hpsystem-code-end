@@ -16,8 +16,20 @@ class Home extends BaseController
     }
 
     public function about () {
-        echo view('daker/layouts/header_page');
+        echo view('daker/layouts/header_page', ['name_page' => 'Acerca de nosotros']);
         echo view('daker/components/about');
+        echo view('daker/layouts/footer');
+    }
+
+    public function service () {
+        echo view('daker/layouts/header_page', ['name_page' => 'Servicios']);
+        echo view('daker/components/service');
+        echo view('daker/layouts/footer');
+    }
+
+    public function portfolio () {
+        echo view('daker/layouts/header_page', ['name_page' => 'Proyectos']);
+        echo view('daker/components/portfolio');
         echo view('daker/layouts/footer');
     }
 }

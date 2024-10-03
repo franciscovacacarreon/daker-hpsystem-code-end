@@ -76,13 +76,13 @@
                 <div class="container my-5 py-5 px-lg-5">
                     <div class="row g-5 py-5">
                         <div class="col-12 text-center">
-                            <h1 class="text-white animated zoomIn">Acerca de nosotros</h1>
+                            <h1 class="text-white animated zoomIn"><?= $name_page?></h1>
                             <hr class="bg-white mx-auto mt-0" style="width: 90px;">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb justify-content-center">
                                     <li class="breadcrumb-item"><a class="text-white" href="#">Inicio</a></li>
                                     <li class="breadcrumb-item"><a class="text-white" href="#">Página</a></li>
-                                    <li class="breadcrumb-item text-white active" aria-current="page">Acerca de nosotros</li>
+                                    <li class="breadcrumb-item text-white active" aria-current="page"><?= $name_page?></li>
                                 </ol>
                             </nav>
                         </div>

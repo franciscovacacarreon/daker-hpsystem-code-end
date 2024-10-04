@@ -32,4 +32,9 @@ class Home extends BaseController
         echo view('daker/components/portfolio');
         echo view('daker/layouts/footer');
     }
+    public function contact () {
+        echo view('daker/layouts/header_page', ['name_page' => 'Contáctanos']);
+        echo view('daker/components/contact');
+        echo view('daker/layouts/footer');
+    }
 }

@@ -66,7 +66,7 @@
                                 <a href="<?= base_url()?>404.html" class="dropdown-item">404 Page</a>
                             </div>
                         </div>
-                        <a href="<?= base_url()?>contact.html" class="nav-item nav-link">Contáctanos</a>
+                        <a href="<?= base_url()?>contact" class="nav-item-header nav-item nav-link">Contáctanos</a>
                     </div>
                     <!-- <butaton type="button" class="btn text-secondary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton> -->
                 </div>

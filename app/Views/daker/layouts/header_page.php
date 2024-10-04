@@ -45,9 +45,9 @@
         <!-- Navbar & Hero Start -->
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-                <a href="" class="navbar-brand p-0">
-                    <h1 class="m-0"><i class="fa fa-search me-2"></i>SEO<span class="fs-5">Master</span></h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                <a href="<?= base_url()?>" class="navbar-brand p-0">
+                    <h1 class="m-0"><i class="fas fa-desktop"></i> DAKER<span class="fs-5">SRL</span></h1>
+                    <!-- <img src="<?= base_url()?>img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -66,7 +66,7 @@
                                 <a href="<?= base_url()?>404.html" class="dropdown-item">404 Page</a>
                             </div>
                         </div>
-                        <a href="<?= base_url()?>contact.html" class="nav-item nav-link">Contáctanos</a>
+                        <a href="<?= base_url()?>contact" class="nav-item-header nav-item nav-link">Contáctanos</a>
                     </div>
                     <!-- <butaton type="button" class="btn text-secondary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton> -->
                 </div>
